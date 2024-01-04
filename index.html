@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Nimbus Bites</title>
+        <link rel="shortcut icon" href="./img/Nimbus Bites Logo.png" type="image/x-icon">
+
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            @media (max-width:1000px){
+                .test{
+               text-align: center;
+            }
+            }
+            #google_translate_element{
+                margin-right: 10px;
+            }
+            .accordion-button{
+                font-size: 20px;
+                letter-spacing: 1px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg py-4">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-primary fw-bold mb-0">Nimbus<span class="text-dark">Bites</span> </h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="blog.html" class="nav-item nav-link">Blog</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Categories</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="nonveg-menu.html" class="dropdown-item">Non-Veg</a>
+                                    <a href="veg-menu.html" class="dropdown-item">Veg</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Party Order</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="book.html" class="dropdown-item">Booking</a>
+                                  
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                    <a href="event.html" class="dropdown-item">Events</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div id="google_translate_element"></div>
+                        <a href="./book.html" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Book Now</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+      
+
+        <!-- Navbar End -->
+
+
+      
+
+
+        <!-- Hero Start -->
+        <div class="container-fluid bg-light py-4  mt-0">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-7 test  col-md-12 ">
+                        <small class="d-inline-block  fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4  py-1 mb-4 animated bounceInLeft">Welcome to NimbusBites</small>
+                        <h1 class="display-1 mb-4 animated bounceInUp">Book <span class="text-primary">Nimbus</span>Bites For Your Dream Event</h1>
+                        <a href="./book.html" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInUp">Book Now</a>
+                        <a href="./blog.html" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInUp">Know More</a>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <img src="img/hero.png" class="img-fluid rounded  animated zoomInRight" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- Service Start -->
+        <div class="container-fluid service py-6">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Services</small>
+                    <h1 class="display-5 mb-5">What We Offer</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-cheese fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Wedding Services</h4>
+                                    <p class="mb-4">"Creating unforgettable moments is our specialty. "</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-pizza-slice fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Office Catering</h4>
+                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                  
+                    <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-walking fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Home Delivery</h4>
+                                    <p class="mb-4">"Bringing the best right to your doorstep! Enjoy convenience and quality with our home delivery services."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.7s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <i class="fas fa-utensils fa-7x text-primary mb-4"></i>
+                                    <h4 class="mb-3">Buffet Catering</h4>
+                                    <p class="mb-4">Contrary to popular belief, ipsum is not simply random.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+ <!-- About Satrt -->
+ <div class="container-fluid py-6">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow bounceInLeft" data-wow-delay="0.1s">
+                <img src="img/about-main.jpg" class="img-fluid rounded" alt="">
+            </div>
+            <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
+                <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">About Us</small>
+                <h1 class="display-5 mb-4">Trusted By 200 + satisfied clients</h1>
+                <p class="mb-4">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore eit esdioilore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullaemco laboeeiris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                    dolor iesdein reprehendeerit in voluptate velit esse cillum dolore.</p>
+                <div class="row g-4 text-dark mb-5">
+                    <div class="col-sm-6">
+                        <i class="fas fa-share text-primary me-2"></i>Fresh and Fast food Delivery
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fas fa-share text-primary me-2"></i>24/7 Customer Support
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fas fa-share text-primary me-2"></i>Easy Customization Options
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fas fa-share text-primary me-2"></i>Delicious Deals for Delicious Meals
+                    </div>
+                </div>
+                <a href="contact.html" class="btn btn-primary py-3 px-5 rounded-pill">Contact Me<i class="fas fa-arrow-right ps-2"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+ <!-- ======= Frequently Asked Questions Section ======= -->
+ <section id="faq" class="faq my-4  mb-6">
+    <div class="container" data-aos="fade-up">
+      <div class="row gy-4 wow bounceInLeft">
+        <div class="col-lg-4">
+          <div class="content px-xl-5">
+            <h3>Frequently Asked <strong>Questions</strong></h3>
+            <p>
+              We work with a deeply-held set of beliefs about the practice of art, technology, and design. There is an offbeat difference in - how we think, ideate, connect and deliver. Basically, we create head-turners and scroll-stopper graphics, websites
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+
+          <div class="accordion accordion-flush" id="faqlist" data-aos="fade-up" data-aos-delay="100">
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                  <span class="num">1.</span>
+                   What website development services do you provide?
+                </button>
+              </h3>
+              <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  We specialize in creating custom websites, including responsive designs, e-commerce platforms, content management systems (CMS), website redesign, and web application development tailored to your specific needs.
+                </div>
+              </div>
+            </div><!-- # Faq item-->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                  <span class="num">2.</span>
+                  What platform or technology do you use for website development?
+                </button>
+              </h3>
+              <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  We utilize a range of technologies and platforms based on project requirements. Our team is proficient in various platforms such as WordPress, Shopify, Magento, custom PHP, HTML/CSS, and JavaScript frameworks like React and Vue.js, among others.
+                </div>
+              </div>
+            </div><!-- # Faq item-->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                  <span class="num">3.</span>
+                  Do you provide website maintenance services after the site is launched?
+                </button>
+              </h3>
+              <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  Yes, we offer ongoing maintenance and support services to ensure your website remains up-to-date, secure, and functional. Our maintenance plans include regular updates, security checks, performance optimization, and technical support.
+                </div>
+              </div>
+            </div><!-- # Faq item-->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                  <span class="num">4.</span>
+                  What social media services do you offer?
+                </button>
+              </h3>
+              <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  We provide comprehensive social media management services, including content creation, strategy development, social media advertising, community engagement, analytics, and reporting across various platforms such as Facebook, Instagram, Twitter, LinkedIn, and more.
+                </div>
+              </div>
+            </div><!-- # Faq item-->
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                  <span class="num">5.</span>
+                  How do you create content for social media?
+                </button>
+              </h3>
+              <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  Our team develops engaging and relevant content tailored to your brand and target audience. We craft visually appealing graphics, write compelling copy, create videos, and schedule posts to maintain a consistent and impactful social media presence.
+                </div>
+              </div>
+            </div><!-- # Faq item-->
+          </div>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Frequently Asked Questions Section -->
+
+          <!-- Fact Start-->
+          <div class="container-fluid faqt py-6">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-7">
+                       <div class="row g-4">
+                            <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.3s">
+                                <div class="faqt-item bg-primary rounded p-4 text-center">
+                                    <i class="fas fa-users fa-4x mb-4 text-white"></i>
+                                    <h1 class="display-4 fw-bold" data-toggle="counter-up">280</h1>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Happy Customers</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.5s">
+                                <div class="faqt-item bg-primary rounded p-4 text-center">
+                                    <i class="fas fa-users-cog fa-4x mb-4 text-white"></i>
+                                    <h1 class="display-4 fw-bold" data-toggle="counter-up">17</h1>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Expert Chefs</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 wow bounceInUp" data-wow-delay="0.7s">
+                                <div class="faqt-item bg-primary rounded p-4 text-center">
+                                    <i class="fas fa-check fa-4x mb-4 text-white"></i>
+                                    <h1 class="display-4 fw-bold" data-toggle="counter-up">152</h1>
+                                    <p class="text-dark text-uppercase fw-bold mb-0">Events Complete</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
+                        <div class="video">
+                            <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Video -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+       
+
+       
+        <!-- Book Us Start -->
+       
+        <!-- Book Us End -->
+
+        
+        <!-- Team Start -->
+        <div class="container-fluid team py-6">
+            <div class="container  ">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Team</small>
+                    <h1 class="display-5 mb-5">We have experienced chef Team</h1>
+                </div>
+                <div class="row g-4  d-flex justify-content-center">
+                   
+                    <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="0.3s">
+                        <div class="team-item rounded">
+                            <img class="img-fluid rounded-top " src="img/team-2.jpg" alt="">
+                            <div class="team-content text-center py-3 bg-dark rounded-bottom">
+                                <h4 class="text-primary">Chef Varun</h4>
+                                <p class="text-white mb-0">Executive Chef</p>
+                            </div>
+                            <div class="team-icon d-flex flex-column justify-content-center m-4">
+                                <a class="share btn btn-primary btn-md-square rounded-circle mb-2"><i class="fas fa-share-alt"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="0.5s">
+                        <div class="team-item rounded">
+                            <img class="img-fluid rounded-top " src="img/team-3.jpg" alt="">
+                            <div class="team-content text-center py-3 bg-dark rounded-bottom">
+                                <h4 class="text-primary">Chef Didi</h4>
+                                <p class="text-white mb-0">Head Chef</p>
+                            </div>
+                            <div class="team-icon d-flex flex-column justify-content-center m-4">
+                                <a class="share btn btn-primary btn-md-square rounded-circle mb-2"><i class="fas fa-share-alt"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-6 my-2 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row d-flex justify-content-around" >
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h1 class="text-primary">Nimbus<span class="text-dark">Bites</span></h1>
+                            <p class="lh-lg mb-4">Welcome to Nimbus Bites, where passion meets flavor in the comfort of our home. 🏡✨ </p>
+                            <div class="footer-icon d-flex">
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                                <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-whatsapp"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Special Facilities</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a class="text-body mb-3" ><i class="fa fa-check text-primary me-2"></i>Cheese Burger</a>
+                                <a class="text-body mb-3" ><i class="fa fa-check text-primary me-2"></i>Sandwich</a>
+                                <a class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Panner Burger</a>
+                                <a class="text-body mb-3" ><i class="fa fa-check text-primary me-2"></i>Special Sweets</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Contact Us</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i> The Hague Netherlands</p>
+                                <p><i class="fa fa-phone-alt text-primary me-2"></i> (+31) 627-523-601</p>
+                                <p><i class="fas fa-envelope text-primary me-2"></i> info@example.com</p>
+                                <p><i class="fa fa-clock text-primary me-2"></i> 26/7 Hours Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Social Gallery</h4>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                     <img src="img/373388650_823940095867904_8731799952275597611_n.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/378599191_328504066381894_8201498863747788772_n.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/nimbusbites-20231228-0003.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/378451875_264081499920244_2238400063547337931_n.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/378851275_988080652498005_6878821062214278253_n.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/WhatsApp Image 2023-12-28 at 19.23.03_a7758e8c.jpg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-dark py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>nimbusbites.com</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                      
+                        Designed By Developer Ayush
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'nl', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
